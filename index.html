@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow">
-    <meta name="description" content="Aprendiz en analisis y desarrollo de Software"><!--Descipción de la paguina en la web-->
-    <meta name="theme-color" content="#09f"><!--Color del baner-->
-    <link rel="icon" href="images/Sena_Colombia_logo.svg.png" type="image/png"><!--Favicon-->
+    <meta name="robots" content="index, follow" />
+    <meta name="description"content="Aprendiz en analisis y desarrollo de Software"/><!--Descipción de la paguina en la web-->
+    <meta name="theme-color" content="#09f" /><!--Color del baner-->
+    <link rel="icon" href="images/Sena_Colombia_logo.svg.png"><!--Favicon-->
     <title>Tutorial HTML</title><!--Titulo de la pagina-->
   </head>
   <body>
@@ -22,43 +22,80 @@
     <h2>Experiencia</h2>
     <!--Etiqueta (ul) para crear una lista desordenada; (li) elemento de la lista.-->
     <!--Atributo global: (class) identificar elementos que se repiten-->
-<ul>
-    <li class=" listem-item">Fase Analisis</li>
-    <li class=" listem-item">Fase Diseño</li>
-    <li class=" listem-item">Fase Planeación</li>
-</ul>
+    <ul>
+      <li class="listem-item">Fase Analisis</li>
+      <li class="listem-item">Fase Diseño</li>
+      <li class="listem-item">Fase Planeación</li>
+    </ul>
 
-<!--Etiqueta (img) subir una imagen. Atributo (src)va la url de la imagen. Atributo (alt) para hacer una descripcion de la imagen, (title) información relacionada con la imagen, (width y height) para el taaño de la imagen -->
-<!--Atributo global: (id) identificador y el valor solo puede estar una vez en el documento, no se puede repetir-->
-<img 
-id="logo-sena"
-src="/images/Sena_Colombia_logo.svg.png" 
-alt="Logo del SENA" 
-title="Logo Sena" 
-width="200" 
-height="">
+    <!--Etiqueta (img) subir una imagen,(br) para salto de linea. Atributo (src) va la url de la imagen, (alt) para hacer una descripcion de la imagen, (title) información relacionada con la imagen, (width y height) para el taaño de la imagen -->
+    <!--Atributo global: (id) identificador y el valor solo puede estar una vez en el documento, no se puede repetir-->
+    <img
+      id="logo-sena"
+      src="/images/Sena_Colombia_logo.svg.png"
+      alt="Logo del SENA"
+      title="Logo Sena"
+      width="200"
+      height=""
+    />
+    <br>
 
+    <!--Etiqueta (input) para introducir datos en el documento. Atributo (type) para tipo de dato-->
+    <input type="color" />
 
+    <!--Etiqueta (aside) contenido que da contexto al documento, pero no es el principal, (ol) crear una lista ordenada-->
 
+    <h2>Proyectos realizados</h2>
+    <aside>
+        <header>
+            <h3>Tecnologias favoritas</h3>
+        </header>
+    
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Tailwind CSS</li>
+            <li>Boostrap</li>
+        </ol>
+    </aside>
 
+    <!-- Etiqueta (section) es una seccion del documento, (article) es un elemnto con informacion propia. (header) van los titulos, (footer) pie de paguina o de texto.(small) se utiliza para temas de copyright-->
+    <section>
+        <article>
+            <header>
+                <h4>La pizza de el canas</h4>
+              </header>
+            <p>Desarrollo de una aplicaion web, donde se muestra información de la empresa y el administrador podra interactuar con la misma.</p>
+            <footer>
+                <small>
+                    Tecnologias utilizadas:
+                     <ul>
+                        <li>HTML</li>
+                        <li>Tailwind CSS</li>
+                        <li>JavaScript</li>
+                     </ul>
 
+                </small>
+            </footer>
+        </article>
 
+    <article>
+        <header>
+            <h4>Ejercicios JavaScript</h4>
+        </header>
+        <p>Tutorial desde 0 con ejercicios practicos relacionados con el lenguaje de programación JavaScript</p>
+        <footer>
+            <small>
+                <ul>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                </ul>
+            </small>
+        </footer>
+    </article>
 
-
-
-
-
-
-<!--Etiqueta (input) para introducir datos en el documento. Etiqueta (br) para salto de linea. Atributo (type) para tipo de dato-->
-<input type="color">
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
+    </section>
 
   </body>
 </html>
