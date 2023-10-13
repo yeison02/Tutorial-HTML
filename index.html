@@ -4,22 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow" />
-    <meta name="description"content="Aprendiz en analisis y desarrollo de Software"/><!--Descipción de la paguina en la web-->
-    <meta name="theme-color" content="#09f" /><!--Color del baner-->
-    <link rel="icon" href="images/Sena_Colombia_logo.svg.png"><!--Favicon-->
-    <title>Tutorial HTML</title><!--Titulo de la pagina-->
+    <meta
+      name="description"
+      content="Aprendiz en analisis y desarrollo de Software"
+    />
+    <!--Descipción de la paguina en la web-->
+    <meta name="theme-color" content="#09f" />
+    <!--Color del baner-->
+    <link rel="icon" href="images/Sena_Colombia_logo.svg.png" />
+    <!--Favicon-->
+    <title>Tutorial HTML</title>
+    <!--Titulo de la pagina-->
   </head>
-  <body>
-    <!--Etiquitas para titulos, subtitulos, tenemos del h1 al h6-->
-    <h1>Portafolio de Yeison Suárez</h1>
 
-    <!--Etiqueta (p )para crear parrafos, (strong) hacer enfasis en el texto-->
+  <body>
+    <!--Etiquitas para titulos, subtitulos, tenemos del h1 al h6, (nav) crear una navegación, (a) nos permite navegar como dentro y por fuera de la pagina-->
+
+    <header>
+      <h1>Portafolio de Yeison Suárez</h1>
+      <nav>
+        <a href="#Experiencia">Experiencia</a><!--Enlaces Internos-->
+        <a href="#Proyectos realizados">Proyectos realizados</a>
+        <a href="https://youtube.com" target="_blank" rel="noreferrer">Youtube</a><!--Enlaces externos-->
+      </nav>
+    </header>
+
+    <!--Etiqueta (p)para crear parrafos, (strong) hacer enfasis en el texto-->
     <p>
       Aprendiz en <strong>análisis y desarrollo de Software</strong> SENA
       regional Antioquia.
     </p>
 
-    <h2>Experiencia</h2>
+    <h2 id="Experiencia">Experiencia</h2>
     <!--Etiqueta (ul) para crear una lista desordenada; (li) elemento de la lista.-->
     <!--Atributo global: (class) identificar elementos que se repiten-->
     <ul>
@@ -38,64 +54,163 @@
       width="200"
       height=""
     />
-    <br>
+    <br />
 
     <!--Etiqueta (input) para introducir datos en el documento. Atributo (type) para tipo de dato-->
     <input type="color" />
 
-    <!--Etiqueta (aside) contenido que da contexto al documento, pero no es el principal, (ol) crear una lista ordenada-->
+    <!--Etiqueta (button) crea un botón-->
+    <button>Haz click aqui</button>
 
-    <h2>Proyectos realizados</h2>
-    <aside>
-        <header>
-            <h3>Tecnologias favoritas</h3>
-        </header>
-    
-        <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Tailwind CSS</li>
-            <li>Boostrap</li>
-        </ol>
-    </aside>
-
-    <!-- Etiqueta (section) es una seccion del documento, (article) es un elemnto con informacion propia. (header) van los titulos, (footer) pie de paguina o de texto.(small) se utiliza para temas de copyright-->
     <section>
-        <article>
-            <header>
-                <h4>La pizza de el canas</h4>
-              </header>
-            <p>Desarrollo de una aplicaion web, donde se muestra información de la empresa y el administrador podra interactuar con la misma.</p>
-            <footer>
-                <small>
-                    Tecnologias utilizadas:
-                     <ul>
-                        <li>HTML</li>
-                        <li>Tailwind CSS</li>
-                        <li>JavaScript</li>
-                     </ul>
-
-                </small>
-            </footer>
-        </article>
-
-    <article>
-        <header>
-            <h4>Ejercicios JavaScript</h4>
-        </header>
-        <p>Tutorial desde 0 con ejercicios practicos relacionados con el lenguaje de programación JavaScript</p>
-        <footer>
-            <small>
-                <ul>
-                    <li>HTML</li>
-                    <li>JavaScript</li>
-                </ul>
-            </small>
-        </footer>
-    </article>
-
+      <h2>Preguntas frecuentes</h2>
+      <datails>
+        <summary>¿Que estudios tienes?</summary>
+        <p>Tecnologo en análisis y desarrollo de Software</p>
+      </datails>
+      <datails>
+        <summary>¿Cuales son tis hobbies?</summary>
+        <p>Me gusta hacer senderismo</p>
+      </datails>
+    
     </section>
 
+    <!--Etiqueta (aside) contenido que da contexto al documento, pero no es el principal, (ol) crear una lista ordenada-->
+
+    <h2 id="Proyectos realizados">Proyectos realizados</h2>
+    <aside>
+      <header>
+        <h3>Tecnologias favoritas</h3>
+      </header>
+
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Tailwind CSS</li>
+        <li>Boostrap</li>
+      </ol>
+    </aside>
+
+    <!-- Etiqueta (section) es una seccion del documento, (article) es un elemnto con informacion propia contenida. (header) van los titulos, (footer) pie de paguina o de texto.(small) se utiliza para temas de copyright-->
+    <section>
+      <article>
+        <header>
+          <h4>La pizza de el canas</h4>
+        </header>
+        <p>
+          Desarrollo de una aplicaion web, donde se muestra información de la
+          empresa y el administrador podra interactuar con la misma.
+        </p>
+        <footer>
+          <small>
+            Tecnologias utilizadas:
+            <ul>
+              <li>HTML</li>
+              <li>Tailwind CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </small>
+        </footer>
+      </article>
+
+      <article>
+        <header>
+          <h4>Ejercicios JavaScript</h4>
+        </header>
+        <p>
+          Tutorial desde 0 con ejercicios practicos relacionados con el lenguaje
+          de programación JavaScript
+        </p>
+        <footer>
+          <small>
+            Tecnologias utilizadas:
+            <ul>
+              <li>HTML</li>
+              <li>JavaScript</li>
+            </ul>
+          </small>
+        </footer>
+      </article>
+    </section>
+<!--Descargar imagen con el atributo (download) funciona con recursos de nuestros dominios por temas de seguridad-->
+<a download="" href="/images/Sena_Colombia_logo.svg.png">
+
+  <img
+  id="logo-sena"
+  src="/images/Sena_Colombia_logo.svg.png"
+  alt="Logo del SENA"
+  title="Logo Sena"
+  width="200"
+  height=""
+/>
+</a>
+
+<!--Etiqueta (form) crear formularios. Atributo(method) como funciona el servidor(action) a que url se envian los datos-->
+<section>
+  <h2>Formulario de contacto</h2>
+  <form method="post" action="/">
+    <fieldset>
+      <legend>Información personal</legend>
+
+      <label>Nombre:
+        <input 
+        type="text"
+        name="name"
+        placeholder="Yeison Suárez" required>
+      </label>
+      <label>Email:
+        <input 
+        type="email"
+        name="Email"
+        placeholder="yeison.suarezt@gmail.com" required>
+      </label>
+      <label>Telefono
+        <input 
+        type="tel"
+        name="phone"
+        placeholder="" required pattern="[0-9]{9}">
+      </label>
+</fieldset>
+<fieldset>
+  <legend>Otros</legend>
+  <div>
+    <label for="why">Por que quieres contactar</label>
+    <select name="why" id="why">
+      <option value="1">Trabajo</option>
+      <option value="2">Duda</option>
+      <option value="3">Mas informacion</option>
+    </select>
+  </div>
+  <div>
+    <label for="terms">¿Aceptas termimnos y condiciones?</label>
+    <input type="checkbox" id="terms" name="terms" required>
+  </div>
+  <div>
+    <datails id="languages">
+      <option value="HTML"></option>
+      <option value="JavaScript"></option>
+      <option value="Python"></option>
+    </datails>
+    <label >
+      ¿Con que lenguaje quieres que te ayude?
+      <input list="languages" name="languages">
+    </label>
+  </div>
+</fieldset>
+
+
+<input type="submit" value="Enviar">
+  </form>
+</section>
+
+<!--Enlaces especiales-->
+    <footer>
+      copyright &copy; 2023
+<a href="mailto:yeison.suarezt@gmail.com">Enviar mensaje al correo</a>
+<a href="tel:+57 3209877452">Llamar al telefono</a>
+<a href="whatsapp://send?text=Hola yeison"> whatsapp</a>
+
+    </footer>
   </body>
 </html>
