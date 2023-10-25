@@ -1,6 +1,6 @@
 # Tutorial de HTML
 
-Este repositorio contiene el código fuente y los recursos relacionados con el tutorial básico de HTML. El tutorial se basa en el canal de youtube de midulive [Curso COMPLETO de HTML GRATIS desde cero: SEO, semántica y más](https://www.youtube.com/watch?v=3nYLTiY5skU).
+Este repositorio explica algunas de las etiquetas más utilizadas en HTML.
 
 ## Descripción
 
@@ -26,9 +26,7 @@ Este tutorial es una introducción a HTML (Lenguaje de Marcado de Hipertexto) y 
 
 ¡Tus contribuciones son bienvenidas! Si encuentras errores o deseas mejorar este tutorial, no dudes en crear un "Pull Request".
 
-## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más información.
 
 
 
