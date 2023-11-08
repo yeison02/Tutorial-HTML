@@ -18,14 +18,14 @@
   </head>
 
   <body>
-    <!--Etiquitas para titulos, subtitulos, tenemos del h1 al h6, (nav) crear una navegación, (a) nos permite navegar como dentro y por fuera de la pagina-->
+    <!--Etiquitas para titulos, subtitulos, tenemos del h1 al h6, (nav) crear una navegación, (a) nos permite navegar como dentro y por fuera de la pagina (tagert:"_blank") abre otra ventana en el navegador-->
 
     <header>
       <h1>Portafolio de Yeison Suárez</h1>
       <nav>
-        <a href="#Experiencia">Experiencia</a
+        <a href="#Experiencia" target="_blank">Experiencia</a
         ><!--Enlaces Internos-->
-        <a href="#Proyectos realizados">Proyectos realizados</a>
+        <a href="#Proyectos-realizados">Proyectos realizados</a>
         <a href="https://youtube.com" target="_blank" rel="noreferrer"
           >Youtube</a
         ><!--Enlaces externos-->
@@ -61,7 +61,6 @@
       alt="Logo del SENA"
       title="Logo Sena"
       width="200"
-      height=""
     />
     <br />
 
@@ -85,7 +84,7 @@
 
     <!--Etiqueta (aside) contenido que da contexto al documento, pero no es el principal, (ol) crear una lista ordenada-->
 
-    <h2 id="Proyectos realizados">Proyectos realizados</h2>
+    <h2 id="Proyectos-realizados">Proyectos realizados</h2>
     <aside>
       <header>
         <h3>Tecnologias favoritas</h3>
@@ -103,48 +102,38 @@
     <!-- Etiqueta (section) es una seccion del documento, (article) es un elemnto con informacion propia contenida. (header) van los titulos, (footer) pie de paguina o de texto.(small) se utiliza para temas de copyright-->
     <section>
       <article>
-        <header>
-          <h4>La pizza de el canas</h4>
-        </header>
+        <h4>La pizza de el canas</h4>
         <p>
           Desarrollo de una aplicaion web, donde se muestra información de la
           empresa y el administrador podra interactuar con la misma.
         </p>
         <footer>
-          <small>
-            Tecnologias utilizadas:
-            <ul>
-              <li>HTML</li>
-              <li>Tailwind CSS</li>
-              <li>JavaScript</li>
-            </ul>
-          </small>
+          Tecnologias utilizadas:
+          <ul>
+            <li>HTML</li>
+            <li>Tailwind CSS</li>
+            <li>JavaScript</li>
+          </ul>
         </footer>
       </article>
-
       <article>
-        <header>
-          <h4>Ejercicios JavaScript</h4>
-        </header>
+        <h4>Ejercicios JavaScript</h4>
         <p>
           Tutorial desde 0 con ejercicios practicos relacionados con el lenguaje
           de programación JavaScript
         </p>
         <footer>
-          <small>
-            Tecnologias utilizadas:
-            <ul>
-              <li>HTML</li>
-              <li>JavaScript</li>
-            </ul>
-          </small>
+          Tecnologias utilizadas:
+          <ul>
+            <li>HTML</li>
+            <li>JavaScript</li>
+          </ul>
         </footer>
       </article>
     </section>
     <!--Descargar imagen con el atributo (download) funciona con recursos de nuestros dominios por temas de seguridad-->
     <a download="" href="/images/perro.jpg">
       <img
-        id="logo-sena"
         src="images/perro.jpg"
         alt="Perro usando anteojos"
         title="Perro con anteojos"
@@ -210,7 +199,7 @@
             </datalist>
             <label>
               ¿Con que lenguaje quieres que te ayude?
-              <input list="languages" name="languages" id="languages" />
+              <input list="languages" name="languages" />
             </label>
           </div>
         </fieldset>
